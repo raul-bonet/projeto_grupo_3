@@ -1,0 +1,36 @@
+/*inicio*/
+let grupo=["Nicolas Vieira Dias Rodrigues",
+           "Raul Bonet",
+           "Renato de Lima",
+           "Samuel Krakhecke Dias",
+           "Willyan Gabriel Flores de Matos",
+           "Gabrielly Ferreira de Assis",
+           "Layo Kaue Benevenuto de Lima",
+           "Mateus Antunes Belo"];
+console.log(grupo);
+/*nicolas*/
+grupo.splice(0,1,"GRAZIELI VITÓRIA OLIVEIRA MUCHINSKI FONSECA");
+console.log(grupo);
+/*raul*/
+grupo.splice(1,3,"ARTUR ARAUJO SOUZA BRASIL","DIEGO ARYEL");
+console.log(grupo);
+/*samuel*/
+grupo.push ('MIGUEL OLAVO DALLA COSTA DE SOUZA');
+console.log(grupo);
+/*willyan*/
+grupo.unshift('NATHIELY THAMIRES CHAVES');
+console.log(grupo);
+/*mateus*/
+grupo.pop ()
+grupo.push ('ARTUR ARAUJO SOUZA BRASIL');
+grupo.push ('GUILHERME MOREIRA SILVEIRA');
+console.log(grupo)
+/*gabrielly*/
+grupo.splice (4,1, "GUILHERME MOREIRA SILVEIRA", "GUSTAVO GARDASZ MOMBACH");
+console.log(grupo);
+/*renato(não veio)*/
+let grupo_quinze=grupo.filter(aluno=>aluno.length>15);
+console.log(grupo_quinze);
+/*layo(nao veio)*/
+grupo_quinze.splice(5,5);
+console.log(grupo_quinze);
